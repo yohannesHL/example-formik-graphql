@@ -1,0 +1,22 @@
+.ExampleForm {
+  background: #f1f1f1;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ExampleForm input {
+  margin-bottom: 10px;
+}
+
+.ExampleForm label,
+.ExampleForm button {
+  margin-top: 10px;
+}
+
+.ExampleForm .error {
+  color: red;
+}

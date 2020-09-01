@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`runs the mocked query 1`] = `
+<div>
+  <div>
+    <h2
+      role="heading"
+    >
+      Form
+    </h2>
+    <form
+      action="#"
+      class="ExampleForm"
+    >
+      <label
+        for="userName"
+      >
+        Username: 
+      </label>
+      <input
+        aria-label="userName-input"
+        id="userName"
+        name="userName"
+        style="border: 1px solid;"
+        type="text"
+        value="TestUser"
+      />
+      <label
+        for="email"
+      >
+        Email: 
+      </label>
+      <input
+        aria-label="email-input"
+        id="email"
+        name="email"
+        type="text"
+        value="testuser@example.com"
+      />
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
